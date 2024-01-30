@@ -1,7 +1,7 @@
-export default function Home() {
-  return (
-    <main>
-      <div>asdasd</div>
-    </main>
-  );
+import { redirect } from 'next/navigation';
+
+export default function Dashboard() {
+  redirect('/dashboard');
+
+  return <div />;
 }
